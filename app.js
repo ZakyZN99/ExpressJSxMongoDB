@@ -1,13 +1,15 @@
 const express = require('express');
+const path = require('path');
 const app = express();
-const router = require('./routes');
-const log = require('./middlewares/logger')
+const productRouter = require('./app/product/routes')
+const logger = require('morgan');
 
 
-app.use(log);       
+app.use(logger('dev'));       
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
-app.use(router);
+app.use('/upload', express.static(path.join(__dirname, 'upload')));
+app.use('/api/v1', productRouter);
 app.use((req, res, next)=> {
     res.status(404);
     res.send({
