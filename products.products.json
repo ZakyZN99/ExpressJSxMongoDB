@@ -1,0 +1,76 @@
+[{
+  "_id": {
+    "$oid": "65e22d05870ae94ad905c51b"
+  },
+  "name": "Laptop Asus",
+  "price": 5000000,
+  "stock": 20,
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "65e22d7d870ae94ad905c51c"
+  },
+  "name": "Laptop Acer",
+  "price": 5500000,
+  "stock": 2,
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "65e22d9c870ae94ad905c51d"
+  },
+  "name": "Laptop AlienWare",
+  "price": 15000000,
+  "stock": 5,
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "65e22db0870ae94ad905c51e"
+  },
+  "name": "Laptop Omen",
+  "price": 19000000,
+  "stock": 2,
+  "status": false
+},
+{
+  "_id": {
+    "$oid": "65e28104b394b2d5ba8c2fa2"
+  },
+  "name": "Laptop Acer",
+  "price": "200000",
+  "stock": "40",
+  "status": "true",
+  "image_url": "http://localhost:3000/upload/header.jpg"
+},
+{
+  "_id": {
+    "$oid": "65e2811fb394b2d5ba8c2fa3"
+  },
+  "name": "Laptop Acer",
+  "price": "2000000",
+  "stock": "40",
+  "status": "false",
+  "image_url": "http://localhost:3000/upload/header.jpg"
+},
+{
+  "_id": {
+    "$oid": "65e292fa197b989177c2836a"
+  },
+  "name": "Laptop Acer",
+  "price": "200000",
+  "stock": "40",
+  "status": "true",
+  "image_url": "http://localhost:3000/upload/header.jpg"
+},
+{
+  "_id": {
+    "$oid": "65e29312197b989177c2836b"
+  },
+  "name": "Laptop Acer",
+  "price": "200000",
+  "stock": "40",
+  "status": "1",
+  "image_url": "http://localhost:3000/upload/header.jpg"
+}]
